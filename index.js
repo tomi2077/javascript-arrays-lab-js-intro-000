@@ -26,4 +26,7 @@ var prependKitten = (name) => {
   return kittenie
 }
 
-var 
+var removeLastKitten = () => {
+  var kittenie = removeLastKitten.pop()
+  return kittenie
+}
