@@ -19,6 +19,10 @@ var destructivelyRemoveFirstKitten = () => {
 var appendKitten = (name) => {
   var kittenie = [...kittens,name]
   return kittenie;
+}
 
+var prependKitten = (name) => {
+  var kittenie = [name,...kittens]
+  return kittenie
 }
 
