@@ -8,6 +8,11 @@ var destructivelyPrependKitten = (name) => {
   kittens.unshift(name)
 }
 
-destructivelyRemoveLastKitten = () => {
+var destructivelyRemoveLastKitten = () => {
   kittens.pop();
 }
+
+var destructivelyRemoveFirstKitten() => {
+  kittens.shift();
+}
+
