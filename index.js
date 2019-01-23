@@ -7,3 +7,7 @@ var destructivelyAppendKitten = (name) =>{
 var destructivelyPrependKitten = (name) => {
   kittens.unshift(name)
 }
+
+destructivelyRemoveLastKitten = () => {
+  kittens.pop();
+}
