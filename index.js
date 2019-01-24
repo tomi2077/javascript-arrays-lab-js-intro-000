@@ -31,3 +31,7 @@ var removeLastKitten = () => {
   return kittenie
 }
 
+var removeFirstKitten() = () => {
+  var kittenie = kittenie.slice(1)
+  return kittenie
+}
