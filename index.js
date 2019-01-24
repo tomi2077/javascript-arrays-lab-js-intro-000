@@ -27,6 +27,6 @@ var prependKitten = (name) => {
 }
 
 var removeLastKitten = () => {
-  var kittenie = kittens.pop()
+  var kittenie = [kittens.pop()
   return kittenie
 }
